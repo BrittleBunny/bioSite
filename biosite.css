@@ -1,0 +1,22 @@
+body {
+    background-color: #DAE7F7;
+    text-align: center;
+    line-height: 1.5;
+}
+
+head {
+    text-align: center;
+}
+
+#container {
+    color: #6E81F5;
+}
+
+header, h1, h2, h3 {
+    color: #A390F5;
+}
+
+header {
+    background-color: #8ed8d0;
+    padding: 20px;
+}
