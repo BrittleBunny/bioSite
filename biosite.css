@@ -6,6 +6,7 @@ body {
 
 head {
     text-align: center;
+    font-weight: bold;
 }
 
 #container {
@@ -14,9 +15,79 @@ head {
 
 header, h1, h2, h3 {
     color: #A390F5;
+    font-weight: bold;
 }
 
 header {
     background-color: #8ed8d0;
     padding: 20px;
+    text-align: center;
+    color: #A390F5;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #5e938e;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+figure {
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#MomMain {
+    width: 700px;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #5e938e;
+    border-bottom: solid #94c6c1 15px;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #9fd3ce;
+    color: white;
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10%;
+}
+
+#img1, #img2, #img3 {
+    width: 500px;
 }
